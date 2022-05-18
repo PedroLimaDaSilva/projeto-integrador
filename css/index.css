@@ -1,23 +1,77 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Maven+Pro:wght@400;700&display=swap');
 
 body{
+	margin: 0;
 	width: 1440px;
 }
 
-nav{
-	border-bottom: solid;
-	border-width: 1px;
+.titulo{
+	font-family: 'Maven Pro', sans-serif;
 }
 
-nav a{text-decoration: none;}
+header{
+	background-color: #FFDB3D;
+	height: 150px;
+	text-align: center;
+}
 
-h1{font-family: 'Maven Pro', sans-serif; text-decoration: none; font-weight: normal; font-size: 15px;}
+nav{
+	border-top: solid 1px #FF993A;
+	border-bottom: solid 1px #FF993A;
+	text-align: center;
+	position: relative;
+	padding: 10px 0px 10px 0px;
+}
 
-h6{font-family: 'Brasilero 2018 Free', sans-serif; font-weight: normal; font-size: 20px;}
+nav a{
+	padding: 0px 25px 0px 25px;
+	font-size: 22px;
+	color: #000000;
+	text-decoration: none;
+}
 
-p{font-family: 'Vollkorn', serif;}
+.on-page{
+	background-color: #FF993A;
+	color: #271300;
+	padding: 10px 25px 10px 25px;
+}
+
+/* Footer */
+
+.links-uteis{
+	background-color: #FF993A;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.links-uteis h3{
+	color: #271300;
+	font-size: 32px;
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+.links-uteis a{
+	color: #271300;
+	font-size: 20px;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+.copyright{
+	background-color: #271300;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	padding: 25px 0;
+}
+
+/* Fim do Footer */
 
 table{background-color: #F5F5F5; width: 500px; border: solid 1px; border-radius: 10px; text-align: center;}
 th{border-bottom: solid 1px;}
