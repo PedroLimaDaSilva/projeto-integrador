@@ -3,13 +3,166 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Maven+Pro:wght@400;700&display=swap');
 
 body{
-	margin: 0;
+	margin: auto;
 	width: 1440px;
+}
+
+iframe{
+	border: none;
+	width: 645px;
+	height: 355px;
+	overflow-x: hidden;
 }
 
 .titulo{
 	font-family: 'Maven Pro', sans-serif;
 }
+h1, h2, h3{
+    font-weight: normal;
+}
+.texto{
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+	margin: 0;
+}
+
+ul{
+	padding-left: 25px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+.centro{
+    text-align: center;
+}
+.hide{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+	margin:0;
+}
+
+/* Classes das páginas de instrumentos */
+.imagem-esquerda{
+	padding: 3px 10px 10px 50px;
+}
+.imagem-direita{
+	padding: 3px 10px 10px 0px;
+}
+
+.margin-titulo{
+	margin: 30px 5px 5px 100px;
+}
+/* Fim das classes dos instrumentos */
+
+/* Classes das páginas de sambistas*/
+/* Adicionando o padding interno entre os elementos da página */
+.distancia{
+    margin-top: 30px;
+}
+
+.tamanho-fonte{
+    font-size: 32px;
+}
+
+.sambistas{
+    padding: 0px 80px;
+}
+.sambistas a{
+    text-decoration: none;
+    color: #000000;
+}
+.sambistas a:hover{
+    color: #FFDB3D;
+}
+
+.sambistas-distancia{
+    padding-left: 107px;
+}
+.cartola{
+    padding: 18px 20px 30px 55px;
+}
+.alcione{
+    padding: 18px 0px 30px 150px;
+}
+.martinho{
+    padding: 18px 0px 30px 130px;
+}
+.ary{
+    padding: 18px 20px 0px 23px;
+}
+.zeca{
+    padding: 18px 0px 0px 100px;
+}
+.jorge{
+    padding: 18px 0px 0px 105px;
+}
+
+.sambista-distancia{
+    padding-left: 56px;
+}
+.sambista-distancia h1{
+    margin: 0px;
+}
+.sambista-distancia p{
+    margin: 0px;
+}
+
+.musicas{
+    float: left;
+	width: 323px;
+}
+.sucessos{
+    float: left;
+    width: 650px;
+	margin-bottom: 40px;
+}
+.clear{
+    clear:both;
+}
+/* Fim das classes dos sambistas */
+
+/* Classes da página de contato */
+.tamanho-fonte2{
+	font-size: 40px;
+}
+.tamanho-fonte3{
+	font-size: 24px;
+}
+.tamanho-input{
+	width: 350px;
+	height: 45px;
+	padding-left: 10px;
+}
+.tamanho-input2{
+	width: 487px;
+	height: 250px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.botao-contato{
+	background-color: #271300;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	width: 150px;
+	height: 45px;
+	margin-left: 350px;
+}
+.texto-contato{
+	float: right;
+	width: 427px;
+}
+form{
+	float: left;
+}
+/* Fim das classes do contato */
 
 header{
 	background-color: #FFDB3D;
@@ -38,7 +191,49 @@ nav a{
 	padding: 10px 25px 10px 25px;
 }
 
+
+article{
+    width: 1025px;
+    margin: auto;
+	padding: 40px 0px;
+}
+
+.referencias{
+    background-color: #271300;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.acordeao {
+  cursor: pointer;
+  padding-top: 27px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.painel {
+  padding: 0 18px;
+  background-color: #271300;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.painel a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.painel a:hover{
+	color: #FFDB3D;
+}
+
 /* Footer */
+
+footer{
+	float: center;
+}
 
 .links-uteis{
 	background-color: #FF993A;
