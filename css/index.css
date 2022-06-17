@@ -2,21 +2,283 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Maven+Pro:wght@400;700&display=swap');
 
+/* Mudanças globais */
 body{
-	margin: 0;
+	margin: auto;
 	width: 1440px;
 }
-
+iframe{
+	border: none;
+	width: 645px;
+	height: 355px;
+	overflow: hidden;
+}
+main{
+    width: 1025px;
+    margin: auto;
+	padding: 40px 0px;
+}
 .titulo{
 	font-family: 'Maven Pro', sans-serif;
 }
+h1, h2, h3{
+    font-weight: normal;
+}
+.texto{
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+	margin: 0;
+}
+ul{
+	padding-left: 25px;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+.centro{
+    text-align: center;
+}
+.hide{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+	margin:0;
+}
+/* Adicionando o padding interno entre os elementos da página */
+.distancia{
+    margin-top: 30px;
+}
+.tamanho-fonte{
+    font-size: 32px;
+}
+.tamanho-fonte2{
+	font-size: 40px;
+}
+.clear{
+    clear:both;
+}
+/* Fim das mudanças globais */
 
+/* Classes da Home */
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.distancia-links{
+    margin-left: 46px;
+}
+/* Fim das classes da Home */
+
+/* Classes da página de História */
+.margin-historia{
+    margin-left: 19px;
+}
+.margin-zero-historia{
+    margin-top: 0px;
+}
+/* Fim das classes da História */
+
+/* Classes da página de Sambas */
+.margin-zero-sambas{
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+.margin-sambas{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.sambas-alinhamento{
+	justify-content: center;
+	margin-right: 58px;
+}
+.sambas-alinhamento p a{
+	text-decoration: none;
+	color: #271300;
+}
+.sambas-alinhamento p a:hover{
+	text-decoration: none;
+	color: #FF993A;
+}
+.texto-samba{
+	width: 322px;
+}
+table{
+	width: 908px; 
+	border: solid 1px; 
+	text-align: center;
+	border-collapse: collapse;
+}
+.centro-tabela{
+	margin-left: auto;
+	margin-right: auto;
+}
+td{
+	border: solid 1px;
+	padding: 5px 0px;
+}
+th{
+	border: solid 1px;
+	font-weight: normal;
+	padding: 5px 0px;
+}
+caption{
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-right: solid 1px;
+	border-bottom: 0px;
+	padding: 5px 0px;
+}
+/* Fim das classes dos Sambas */
+
+/* Classes das páginas de Instrumentos */
+.imagem-esquerda{
+	padding: 3px 10px 10px 55px;
+}
+.imagem-direita{
+	padding: 3px 56px 10px 0px;
+}
+.margin-titulo{
+	margin: 20px 5px 20px 150px;
+}
+/* Fim das classes dos Instrumentos */
+
+/* Classes das páginas de Sambistas */
+.largura-texto{
+	width: 1024px;
+}
+.sambistas{
+    padding: 0px 80px;
+}
+.sambistas a{
+    text-decoration: none;
+    color: #000000;
+}
+.sambistas a:hover{
+    color: #FF993A;
+}
+.sambistas-distancia{
+    padding-left: 107px;
+}
+.cartola{
+    padding: 18px 20px 30px 55px;
+}
+.padding-top-cartola-alcione{
+	padding-top: 22px;
+}
+.alcione{
+    padding: 18px 0px 30px 150px;
+}
+.martinho{
+    padding: 18px 0px 30px 130px;
+}
+.ary{
+    padding: 18px 20px 0px 23px;
+}
+.zeca{
+    padding: 18px 0px 0px 100px;
+}
+.jorge{
+    padding: 18px 0px 0px 105px;
+}
+/* Fim das classes dos Sambistas */
+
+/* Classes de cada página dos Sambistas */
+.sambista-distancia{
+    padding-left: 58px;
+}
+.sambista-distancia h1{
+    margin: 0px;
+}
+.sambista-distancia p{
+    margin: 0px;
+}
+.sambista-distancia p a{
+    text-decoration: none;
+	color: #271300;
+}
+.sambista-distancia p a:hover{
+	color: #FF993A;
+}
+.musicas{
+    float: left;
+	width: 323px;
+	margin-left: 50px;
+}
+.sucessos{
+    float: left;
+    width: 650px;
+	margin-bottom: 40px;
+}
+/* Fim das classes de cada página dos Sambistas */
+
+/* Classes da página de Quem somos */
+.margin-zero p{
+	margin: 1px;
+}
+.padding-texto{
+	padding-left: 60px;
+}
+.padding-texto p a{
+	text-decoration: none;
+	color: #271300;
+}
+.padding-texto p a:hover{
+	color: #FF993A;
+}
+.margin-abaixo{
+	margin-bottom: 45px;
+}
+/* Fim das classes do Quem somos */
+
+/* Classes da página de Contato */
+.tamanho-fonte3{
+	font-size: 24px;
+}
+.tamanho-input{
+	width: 350px;
+	height: 45px;
+	padding-left: 10px;
+}
+.tamanho-input2{
+	width: 487px;
+	height: 250px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.sem-margin-top{
+	margin-top: 0px;
+}
+.botao-contato{
+	background-color: #271300;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	width: 150px;
+	height: 45px;
+	margin-left: 350px;
+	margin-bottom: 40px;
+}
+.texto-contato{
+	float: right;
+	width: 427px;
+}
+form{
+	float: left;
+}
+/* Fim das classes do Contato */
+
+/* Header e Nav */
 header{
 	background-color: #FFDB3D;
 	height: 150px;
 	text-align: center;
 }
-
 nav{
 	border-top: solid 1px #FF993A;
 	border-bottom: solid 1px #FF993A;
@@ -24,22 +286,69 @@ nav{
 	position: relative;
 	padding: 10px 0px 10px 0px;
 }
-
 nav a{
 	padding: 0px 25px 0px 25px;
 	font-size: 22px;
 	color: #000000;
 	text-decoration: none;
 }
-
+nav a:hover{
+	background-color: #FF993A;
+	color: #271300;
+	padding: 10px 25px 10px 25px;
+}
 .on-page{
 	background-color: #FF993A;
 	color: #271300;
 	padding: 10px 25px 10px 25px;
 }
+/* Fim do Header e Nav*/
+
+/* Classes das Referências */
+.referencias{
+    background-color: #271300;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 32px;
+	align-items: center;
+}
+.referencias h3{
+	margin: 0px;
+	padding-right: 18px;
+}
+.referencias img{
+	padding-top: 10px;
+}
+.acordeao {
+  cursor: pointer;
+  padding: 35px 0px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.painel {
+  padding: 0 18px;
+  background-color: #271300;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.painel a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.painel a:hover{
+	color: #FFDB3D;
+}
+/* Fim das classes das Referências */
 
 /* Footer */
-
+footer{
+	float: center;
+}
 .links-uteis{
 	background-color: #FF993A;
 	height: 100px;
@@ -48,21 +357,21 @@ nav a{
 	justify-content: center;
 	align-items: center;
 }
-
 .links-uteis h3{
 	color: #271300;
 	font-size: 32px;
 	font-weight: bold;
 	padding-right: 20px;
 }
-
 .links-uteis a{
 	color: #271300;
 	font-size: 20px;
 	text-decoration: none;
 	padding-right: 15px;
 }
-
+.links-uteis a:hover{
+	color: #FFDB3D;
+}
 .copyright{
 	background-color: #271300;
 	color: #FFFFFF;
@@ -70,10 +379,4 @@ nav a{
 	font-size: 16px;
 	padding: 25px 0;
 }
-
 /* Fim do Footer */
-
-table{background-color: #F5F5F5; width: 500px; border: solid 1px; border-radius: 10px; text-align: center;}
-th{border-bottom: solid 1px;}
-td{background-color: #E1E1E1;}
-tfoot td{border-top: solid 1px; background-color: #F5F5F5; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
